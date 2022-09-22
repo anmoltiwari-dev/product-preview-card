@@ -10,8 +10,6 @@ function ProductPreviewCard() {
           alt="Gabrielle Essence Eau De Parfum"
           priority
           layout="fill"
-          height={'450px'}
-          width={'300px'}
         />
       </div>
       <div className="sm:hidden relative h-[39%] sm:h-full w-full sm:w-[174%]">
@@ -43,7 +41,7 @@ function ProductPreviewCard() {
         </div>
         <div className="pl-[25px] sm:pl-[0px]">
           <button className="w-[295px] h-[48px] mt-[20px] sm:w-[236px] sm:h-[48px] justify-center bg-dark-cyan text-white rounded-[8px] sm:mt-[30px]">
-            <div className="flex items-center justify-center">
+            <span className="flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -59,7 +57,7 @@ function ProductPreviewCard() {
                 />
               </svg>
               <span className="font-bold text-[14px] leading-[17px] sm:leading-[1.214rem] pl-[11.6px]">Add to Cart</span>
-            </div>
+            </span>
           </button>
         </div>
       </div>
